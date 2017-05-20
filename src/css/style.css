@@ -1,0 +1,60 @@
+.container{
+  background: lightgray;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  border-radius: 3px;
+}
+.container .persons{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.container .persons .person
+{
+  width: 40%;
+  display:inline-block;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-radius: 4px;
+  background: red;
+}
+.container .persons .person:hover
+{
+  background: #ed3d06;
+  text-align: center;
+  color: #fff;
+}
+.container .persons .person .name
+{
+  color: #fff;
+  font-family: "Arial";
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+.container .persons .person .delete
+{
+  float: right;
+  margin-right: 5%;
+  padding: 0 4px;
+}
+.container .persons .person .delete:hover
+{
+  background:#fff;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .personInput
+{
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 2px;
+}
+.container .personInput:focus
+{
+  text-align: left;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Person List</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Person List</h1>
+      <ul class="persons">
+      </ul>
+      <script id="personList" type="text/template">
+        {{#persons}}
+          <li class="person">{{.}} <span class="delete">x</span></li>
+        {{/persons}}
+      </script>
+      <input class="personInput" type="text" placeholder="Enter Person name here">
+    </div>
+    <script src="./src/js/jquery-3.2.1.min.js"></script>
+    <script src="./src/js/mustache.min.js"></script>
+    <script src="./src/js/person.js"></script>
+  </body>
+</html>
